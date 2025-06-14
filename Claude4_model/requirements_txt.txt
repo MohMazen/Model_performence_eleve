@@ -1,0 +1,30 @@
+# Analyse Prédictive des Performances Scolaires
+# Liste des dépendances Python requises
+
+# Manipulation et analyse de données
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+
+# Visualisation
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Traitement de fichiers Excel
+openpyxl>=3.0.9
+xlsxwriter>=3.0.0
+
+# Outils supplémentaires
+scipy>=1.9.0
+joblib>=1.1.0
+
+# Pour les rapports (optionnel)
+jinja2>=3.1.0
+markdown>=3.4.0
+
+# Pour les notebooks Jupyter (optionnel)
+jupyter>=1.0.0
+ipykernel>=6.15.0
