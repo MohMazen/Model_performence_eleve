@@ -54,11 +54,11 @@ class AnalyseurPerformanceScolaire:
         
         if fichier_donnees:
             self.charger_donnees(fichier_donnees)
-    
+
     def charger_donnees(self, fichier_donnees):
         """
         Charge les données depuis un fichier Excel
-        
+
         Args:
             fichier_donnees (str): Chemin vers le fichier
         """
@@ -801,7 +801,7 @@ def main():
     analyseur = AnalyseurPerformanceScolaire()
     
     # Option 1: Charger des données existantes
-    # analyseur.charger_donnees('joins.xlsx')
+    analyseur.charger_donnees('joins.xlsx')
     
     # Option 2: Utiliser des données synthétiques (recommandé pour la démonstration)
     print("🔄 Démarrage de l'analyse avec des données synthétiques...")
